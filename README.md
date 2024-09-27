@@ -8,4 +8,5 @@ Le fichier .env contient la clé API Groq
 
 la clé est sécurisé comme cela : 
 
-![image](https://github.com/user-attachments/assets/24b6bba6-bb85-4da3-841c-edb873d8c914)
+![image](https://github.com/user-attachments/assets/9a36b79d-14b2-436b-98bd-1b22a64abff4)
+
