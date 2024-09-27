@@ -1,7 +1,12 @@
+import os
+from dotenv import load_dotenv
 import groq
 from groq import Groq
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+
+# Charger les variables d'environnement à partir du fichier .env
+load_dotenv()
 
 app = FastAPI()
 
@@ -18,7 +23,7 @@ class Prompt(BaseModel):
 
 @app.get("/status")
 async def get_status():
-    return {"message": "c'est carrer"}
+    return {"message": "OK"}
 
 @app.post("/chat")
 async def post_chat(prompt: Prompt):
