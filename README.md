@@ -1,6 +1,4 @@
-# EVAL
-
-Gestion de la clé API
+# Gestion de la clé API
 
 Création d'un fichier .env
 
